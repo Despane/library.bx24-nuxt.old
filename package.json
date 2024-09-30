@@ -1,0 +1,30 @@
+{
+  "name": "@despane/bx24-nuxt",
+  "version": "1.0.4",
+  "description": "Bitrix Library for NUXT",
+  "keywords": [
+    "bitrix",
+    "Nuxt"
+  ],
+  "author": "Despane",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Despane/library.bx24-nuxt"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
